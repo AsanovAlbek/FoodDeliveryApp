@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/bannerImage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="150dp"
+    android:minWidth="300dp"
+    android:src="@mipmap/ic_launcher"
+    android:scaleType="centerCrop"
+    android:layout_margin="8dp"
+    android:background="@drawable/banner_shape"
+    android:clipToOutline="true">
+
+</androidx.appcompat.widget.AppCompatImageView>

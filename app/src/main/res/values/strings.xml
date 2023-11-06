@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FoodDeliveryApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="menu">Меню</string>
+    <string name="profile">Профиль</string>
+    <string name="shopping_cart">Корзина</string>
+    <string name="sample_meal_description">
+        Some description or ingredient
+    </string>
+    <string name="sample_meal_name">Ветчина и грибы</string>
+    <string name="sample_meal_price">от 375 р</string>
+
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="network_exception">Подключение к интернету отсутствует</string>
+    <string name="meals_not_found">Блюда не найдены</string>
+    <string name="offline_mode_message">offline режим</string>
+    <string name="board_click_message">Board Clicked</string>
+    <string name="meal_click_message">%s Clicked</string>
+</resources>

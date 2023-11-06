@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigationMenu">
+
+    <fragment
+        android:id="@+id/navigationMenu"
+        android:name="albek.petprojects.fooddeliveryapp.features.menu.presentation.FragmentMenu"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/navigationProfile"
+        android:name="albek.petprojects.fooddeliveryapp.features.profile.presentation.FragmentProfile"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigationShoppingCart"
+        android:name="albek.petprojects.fooddeliveryapp.features.shoppingcart.presentation.FragmentShoppingCart"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_shopping_cart" />
+</navigation>
